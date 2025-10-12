@@ -6,8 +6,8 @@ A Lucky Block mod made for high compatibility and easy editing
 
 Pastek Lucky Block CurseForge page
 ============
-https://www.curseforge.com/minecraft/mc-mods/chemical-science
+https://curseforge.com/minecraft/mc-mods/pasteks-lucky-block
 
 Pastek Lucky Block Modrinth page
 ============
-https://modrinth.com/mod/chemicalscience
+https://modrinth.com/mod/pasteks-lucky-block
