@@ -50,7 +50,6 @@
         { "type": "minecraft:item", "name": "chemicalscience:ingot_silicon", "weight": 2, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } } ] },
         { "type": "minecraft:item", "name": "chemicalscience:ingot_tungsten", "weight": 6, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } } ] },
         { "type": "minecraft:item", "name": "chemicalscience:ingot_manganine", "weight": 6, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } } ] },
-        { "type": "minecraft:item", "name": "chemicalscience:ingot_manganine", "weight": 6, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } } ] },
 
         { "type": "minecraft:item", "name": "chemicalscience:sword_tungstencarbide", "weight": 1, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 0, "max": 50 }, "treasure": true}, { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.0, "max": 0.9 } } ] },
         { "type": "minecraft:item", "name": "chemicalscience:pickaxe_tungstencarbide", "weight": 1, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 0, "max": 50 }, "treasure": true}, { "function": "minecraft:set_damage", "damage": { "type": "minecraft:uniform", "min": 0.0, "max": 0.9 } } ] },
