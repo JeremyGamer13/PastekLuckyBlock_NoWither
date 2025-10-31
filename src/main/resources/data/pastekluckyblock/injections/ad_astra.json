@@ -1,0 +1,25 @@
+{
+  "trigger_chance": 0.20,
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "ad_astra:cheese", "weight": 5, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 10 } } ] },
+        { "type": "minecraft:item", "name": "ad_astra:ice_shard", "weight": 3, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 5 } } ] },
+        { "type": "minecraft:item", "name": "ad_astra:raw_desh", "weight": 2, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } } ] },
+        { "type": "minecraft:item", "name": "ad_astra:desh_ingot", "weight": 1, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } } ] },
+        { "type": "minecraft:item", "name": "ad_astra:raw_ostrum", "weight": 2, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } } ] },
+        { "type": "minecraft:item", "name": "ad_astra:ostrum_ingot", "weight": 1, "functions": [ { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } } ] },
+
+        { "type": "minecraft:item", "name": "ad_astra:space_painting", "weight": 1 },
+        { "type": "minecraft:item", "name": "ad_astra:fuel_bucket", "weight": 2 },
+        { "type": "minecraft:item", "name": "ad_astra:launch_pad", "weight": 1 },
+
+        { "type": "minecraft:item", "name": "ad_astra:space_helmet", "weight": 1, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 0, "max": 20 }, "treasure": true} ] },
+        { "type": "minecraft:item", "name": "ad_astra:space_suit", "weight": 1, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 0, "max": 20 }, "treasure": true} ] },
+        { "type": "minecraft:item", "name": "ad_astra:space_pants", "weight": 1, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 0, "max": 20 }, "treasure": true} ] },
+        { "type": "minecraft:item", "name": "ad_astra:space_boots", "weight": 1, "functions": [ { "function": "minecraft:enchant_with_levels", "levels": { "type": "minecraft:uniform", "min": 0, "max": 20 }, "treasure": true} ] }
+      ]
+    }
+  ]
+}

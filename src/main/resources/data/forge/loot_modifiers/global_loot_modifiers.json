@@ -18,7 +18,8 @@
     "pastekluckyblock:assemblyline",
     "pastekluckyblock:ballistix",
     "pastekluckyblock:modularforcefields",
-    "pastekluckyblock:cobblemon"
+    "pastekluckyblock:cobblemon",
+    "pastekluckyblock:ad_astra"
   ],
   "replace": false
 }
