@@ -127,7 +127,7 @@ public class LuckyBlock extends Block {
         badLootOptions.put(() -> level.explode(player, pos.getX()+.5, pos.getY()+.5, pos.getZ()+.5, 5f, true, Level.ExplosionInteraction.TNT), 5);
         badLootOptions.put(() -> surroundWithFluid(level, player.blockPosition(), Blocks.LAVA), 2);
         badLootOptions.put(() -> surroundWithFluid(level, player.blockPosition(), Blocks.WATER), 2);
-        badLootOptions.put(() -> spawnHostile(level, pos, random, List.of(EntityType.WITHER, EntityType.WARDEN, EntityType.ELDER_GUARDIAN, EntityType.ILLUSIONER)), 1);
+        badLootOptions.put(() -> spawnHostile(level, pos, random, List.of(EntityType.WARDEN, EntityType.ELDER_GUARDIAN, EntityType.ILLUSIONER)), 1);
         badLootOptions.put(() -> rainAnvils(level, player.blockPosition().above(15)), 2);
         badLootOptions.put(() -> rideTntChicken(level, player), 5);
         badLootOptions.put(() -> spawnMobColumn(level, player.blockPosition(), EntityType.CREEPER, 10), 1);
